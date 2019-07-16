@@ -21,3 +21,8 @@ echo  "\n${bold}${green}System is ready for Proxmox Installation.${normal} \n"
 #Domain Name (Valid Hostname)
 echo "Please enter a valid hostname: "
 read RESPONSE
+
+#Update Hostname
+echo "Hostname is updating ... \n"
+rm -rf /etc/hostname
+echo  "{RESPONSE}" >> /etc/hostname
