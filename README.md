@@ -8,27 +8,23 @@ Installation Procedure
 
 At first, you will have to install git on your system.<br>
 
-``
+```
 apt install git -y
-``
+```
 <br><br>Once git is installed, you are ready to clone my script!<br>
 
-``
+```
 git clone https://github.com/shadikur/proxmox.git
-``
+```
 <br><br>
 Then, enter to the directory and change the permission.<br><br>
-``
+```
 cd proxmox
-``
-<br>
-``
+
 chmod +x install.sh
-``
-<br>
-``
+
 ./install.sh
-``
+```
 <br><br>
 At the end, please visit your web browser for ``https://your_ip_address:8006`` further configuration.<br>
 
