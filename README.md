@@ -6,21 +6,27 @@
 Installation Procedure
 ----------------------
 
-At first, you will have to install git on your system.
+At first, you will have to install git on your system.<br>
 
 ``
 apt install git -y
 ``
-Once git is installed, you are ready to clone my script!
+<br>Once git is installed, you are ready to clone my script!<br>
 
 ``
 git clone https://github.com/shadikur/proxmox.git
 ``
-
+<br>
 Then, enter to the directory and change the permission.<br><br>
 ``
 cd proxmox
+``
+<br>
+``
 chmod +x install.sh
+``
+<br>
+``
 ./install.sh
 ``
 <br><br>
