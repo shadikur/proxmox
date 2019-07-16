@@ -11,12 +11,12 @@ At first, you will have to install git on your system.<br>
 ``
 apt install git -y
 ``
-<br>Once git is installed, you are ready to clone my script!<br>
+<br><br>Once git is installed, you are ready to clone my script!<br>
 
 ``
 git clone https://github.com/shadikur/proxmox.git
 ``
-<br>
+<br><br>
 Then, enter to the directory and change the permission.<br><br>
 ``
 cd proxmox
