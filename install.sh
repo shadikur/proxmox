@@ -26,3 +26,4 @@ read RESPONSE
 echo "Hostname is updating ... \n"
 rm -rf /etc/hostname
 echo  "{RESPONSE}" >> /etc/hostname
+echo "\n"
