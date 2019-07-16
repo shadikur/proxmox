@@ -19,15 +19,15 @@ apt update -y && apt -y upgrade && apt install build-essential -y && apt install
 echo  "\n${bold}${green}System is ready for Proxmox Installation.${normal} \n"
 
 #Domain Name (Valid Hostname)
-echo "${bold}Please enter a valid hostname: "
+echo "${bold}Please enter a valid hostname: ${normal}"
 read RESPONSE
 
 #Update Hostname
-echo "Hostname is updating ... ${normal}\n"
+echo "${bold}Hostname is updating ... ${normal}\n"
 rm -rf /etc/hostname
 echo  ${RESPONSE} >> /etc/hostname
 echo "\n"
-echo "Enter the Public IP of this server"
+echo "${bold}Enter the Public IP of this server${normal}"
 read PUBIP
 echo ${PUBIP} ${RESPONSE} >> /etc/hosts
 echo "${green}Please wait.. Proxmox is going to be installed very shortly ... ${normal}\n"
