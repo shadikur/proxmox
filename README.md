@@ -1,6 +1,11 @@
 # Proxmox (Virtualisation)
+# Happy to donate?
+If you are happy to donate for the development and continous support to all my project to up and running, I would really appreciate your little donation.
 
- Proxmox Auto Installer. Simply clone this script and run it on your Debian 9 - 64bit Dedicated Server / HyperV enable VPS with root permission. Once, you are finished installation, you are ready to manage over the web interface. Enjoy.
+DONATE VIA PAYPAL [https://www.paypal.me/shuvoqmul/USD]
+
+
+Proxmox Auto Installer. Simply clone this script and run it on your Debian 9 - 64bit Dedicated Server / HyperV enable VPS with root permission. Once, you are finished installation, you are ready to manage over the web interface. Enjoy.
 
 ----------------------
 Installation Procedure
