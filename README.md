@@ -1,6 +1,6 @@
 # Proxmox (Virtualisation)
 
-Proxmox Auto Installer. Simply clone this script and run it on your Debian 9 - 64bit Dedicated Server / HyperV enable VPS with root permission. Once, you are finished installation, you are ready to manage over the web interface. Enjoy.
+Proxmox Auto Installer. Simply clone this script and run it on a fresh, minimal **Debian 12 (bookworm)** or **Debian 13 (trixie)** 64-bit Dedicated Server / hypervisor-enabled VPS with root permission. The script detects your Debian release automatically and installs the matching Proxmox VE line (8.x for bookworm, 9.x for trixie). Once finished, you are ready to manage over the web interface. Enjoy.
 
 ----------------------
 Installation Procedure
